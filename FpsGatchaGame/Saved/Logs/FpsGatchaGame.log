@@ -728,3 +728,999 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.01.20-18.42.02:545][853]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Base'.'
 [2023.01.20-18.42.02:545][853]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'ContentBrowser.ListViewFolderIcon.Mask'.'
 [2023.01.20-18.42.22:695][398]LogContentBrowser: Attempting asset rename: GameContent -> _MainGame
+[2023.01.20-18.43.07:107][344]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.01.20-18.43.07:114][344]LogContentBrowser: Creating deferred item: NewFolder
+[2023.01.20-18.43.07:143][346]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.01.20-18.43.11:709][891]LogContentBrowser: Attempting asset rename: NewFolder -> Character
+[2023.01.20-18.43.11:709][891]LogContentBrowser: End creating deferred item NewFolder
+[2023.01.20-18.43.40:629][607]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Arms\Arms.fbx)
+[2023.01.20-18.43.40:650][607]LogFbx: Loading FBX Scene from C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Arms\Arms.fbx
+[2023.01.20-18.43.40:670][607]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.20-18.44.03:765][607]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.01.20-18.44.03:789][607]LogFbx: Valid bind pose for Pose (SK_Man_Full_01) - SK_Man_Full_01.001
+[2023.01.20-18.44.03:793][607]LogMaterial: Display: Material /Game/_MainGame/Character/M_Man_Body.M_Man_Body needed to have new flag set bUsedWithSkeletalMesh !
+[2023.01.20-18.44.03:796][607]LogMaterial: Display: Missing cached shadermap for M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 34F084F06A31994E38C2C4D4A7A2E5A55C089A14), compiling. 
+[2023.01.20-18.44.03:891][607]LogFbxMaterialImport: Display: Unable to find Texture file D:\ГОТОВЫЕ МОДЕЛИ ДЛЯ  UE4\1Man\Textures\Body\T_Man_Body_Albedo.tga
+[2023.01.20-18.44.03:891][607]LogFbxMaterialImport: Display: Unable to find Texture file D:\ГОТОВЫЕ МОДЕЛИ ДЛЯ  UE4\1Man\Textures\Body\T_Man_Body_Normals.tga
+[2023.01.20-18.44.03:896][607]LogMaterial: Display: Missing cached shadermap for M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: BE60FA5FB19899757D5D502C48537AE40274DE62), compiling. 
+[2023.01.20-18.44.03:932][607]LogFbx: Warning: Bones digested - 68  Depth of hierarchy - 12
+[2023.01.20-18.44.04:200][607]LogSkeletalMesh: Section 0: Material=0, 16060 triangles
+[2023.01.20-18.44.04:219][607]LogSkeletalMesh: Building Skeletal Mesh Arms...
+[2023.01.20-18.44.04:219][607]LogSkeletalMesh: Display: Waiting for skeletal meshes to be ready 0/1 (Arms) ...
+[2023.01.20-18.44.04:429][607]LogSkeletalMesh: Built Skeletal Mesh [0.22s] /Game/_MainGame/Character/Arms.Arms
+[2023.01.20-18.44.04:429][607]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-18.44.04:479][607]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-18.44.04:480][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-18.44.04:484][607]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: ================================================
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Total job queries 34, among them cache hits 0 (0.00%)
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Tracking 1 distinct input hashes that result in 1 distinct outputs (100.00%)
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: RAM used: 0.00 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.00%
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Shaders Compiled: 32
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Jobs assigned 2, completed 1 (50.00%)
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Time job spent in pending queue: average 0.00 s, longest 0.00 s
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Job execution time: average 0.93 s, max 0.93 s
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Job life time (pending + execution): average 0.93 s, max 0.93
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.93 s
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Average processing rate: 1.08 jobs/sec
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Effective parallelization: 0.71 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2023.01.20-18.44.05:584][690]LogShaderCompilers: Display: ================================================
+[2023.01.20-18.44.07:593][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2023.01.20-18.44.07:594][892]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.008
+[2023.01.20-18.44.07:594][892]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_MainGame/Character/Arms] ([1] browsable assets)...
+[2023.01.20-18.44.07:612][892]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/_MainGame/Character/Arms.Arms]
+[2023.01.20-18.44.07:612][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/_MainGame/Character/Arms]
+[2023.01.20-18.44.07:617][892]LogPackageLocalizationCache: Processed 30 localized package path(s) for 1 prioritized culture(s) in 0.003808 seconds
+[2023.01.20-18.44.07:641][892]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_MainGame/Character/Arms_Auto1
+[2023.01.20-18.44.07:641][892]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/Arms_Auto1F5736F3C474AE1B5C47721AE373B90A4.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/Autosaves/Game/_MainGame/Character/Arms_Auto1.uasset'
+[2023.01.20-18.44.07:642][892]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_MainGame/Character/Arms_Skeleton] ([1] browsable assets)...
+[2023.01.20-18.44.07:650][892]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/_MainGame/Character/Arms_Skeleton.Arms_Skeleton]
+[2023.01.20-18.44.07:650][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/_MainGame/Character/Arms_Skeleton]
+[2023.01.20-18.44.07:651][892]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_MainGame/Character/Arms_Skeleton_Auto1
+[2023.01.20-18.44.07:651][892]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/Arms_Skeleton_Auto134EF66EA414C721B213B599F261077EF.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/Autosaves/Game/_MainGame/Character/Arms_Skeleton_Auto1.uasset'
+[2023.01.20-18.44.07:652][892]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/_MainGame/Character/Arms_PhysicsAsset] ([1] browsable assets)...
+[2023.01.20-18.44.07:656][892]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/_MainGame/Character/Arms_PhysicsAsset.Arms_PhysicsAsset]
+[2023.01.20-18.44.07:656][892]OBJ SavePackage: Finished generating thumbnails for package [/Game/_MainGame/Character/Arms_PhysicsAsset]
+[2023.01.20-18.44.07:658][892]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/_MainGame/Character/Arms_PhysicsAsset_Auto1
+[2023.01.20-18.44.07:658][892]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/Arms_PhysicsAsset_Auto10F31994A4FC2DAB29C22AFA06B765E23.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/Autosaves/Game/_MainGame/Character/Arms_PhysicsAsset_Auto1.uasset'
+[2023.01.20-18.44.07:659][892]LogFileHelpers: Auto-saving content packages took 0.065
+[2023.01.20-18.44.10:577][242]LogSlate: Window 'Message Log' being destroyed
+[2023.01.20-18.44.10:582][242]LogSlate: Window 'Message Log' being destroyed
+[2023.01.20-18.44.42:556][768]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Arms\T_Man_Body_Normals.TGA)
+[2023.01.20-18.44.42:714][768]LogTexture: Display: Building textures: /Game/_MainGame/Character/T_Man_Body_Normals.T_Man_Body_Normals (TFO_BC5, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.01.20-18.44.42:845][768]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Arms\T_Man_Body_Albedo.TGA)
+[2023.01.20-18.44.43:003][768]LogTexture: Display: Building textures: /Game/_MainGame/Character/T_Man_Body_Albedo.T_Man_Body_Albedo (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.01.20-18.44.43:140][768]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Arms\T_Man_Body_Ao.TGA)
+[2023.01.20-18.44.43:423][768]LogTexture: Display: Building textures: /Game/_MainGame/Character/T_Man_Body_Ao.T_Man_Body_Ao (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.01.20-18.44.43:423][768]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Arms\T_Man_Body_Metallic.TGA)
+[2023.01.20-18.44.43:528][768]LogTexture: Display: Building textures: /Game/_MainGame/Character/T_Man_Body_Metallic.T_Man_Body_Metallic (TFO_AutoDXT, 4096X4096 X1X1) (Required Memory Estimate: 320.000 MB), EncodeSpeed: Fast
+[2023.01.20-18.44.53:077][257]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.01.20-18.44.53:086][257]LogContentBrowser: Creating deferred item: NewFolder
+[2023.01.20-18.44.53:091][258]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.01.20-18.44.55:235][362]LogContentBrowser: Attempting asset rename: NewFolder -> NewFolder
+[2023.01.20-18.44.55:236][362]LogContentBrowser: End creating deferred item NewFolder
+[2023.01.20-18.44.59:143][820]LogContentBrowser: Attempting asset rename: NewFolder -> Animations
+[2023.01.20-18.45.10:260][492]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\AimFire.FBX)
+[2023.01.20-18.45.10:266][492]LogFbx: Loading FBX Scene from C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\AimFire.FBX
+[2023.01.20-18.45.10:289][492]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.20-18.45.16:161][492]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.01.20-18.45.30:497][492]LogSlate: Window 'FBX Import Options' being destroyed
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(0) root
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(1) pelvis
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(2) spine_01
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(3) spine_02
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(4) spine_03
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(5) clavicle_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(6) upperarm_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(7) lowerarm_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(8) hand_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(9) index_01_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(10) index_02_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(11) index_03_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(12) middle_01_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(13) middle_02_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(14) middle_03_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(15) pinky_01_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(16) pinky_02_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(17) pinky_03_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(18) ring_01_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(19) ring_02_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(20) ring_03_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(21) thumb_01_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(22) thumb_02_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(23) thumb_03_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(26) clavicle_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(27) upperarm_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(28) lowerarm_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(29) hand_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(30) index_01_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(31) index_02_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(32) index_03_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(33) middle_01_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(34) middle_02_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(35) middle_03_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(36) pinky_01_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(37) pinky_02_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(38) pinky_03_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(39) ring_01_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(40) ring_02_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(41) ring_03_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(42) thumb_01_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(43) thumb_02_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(44) thumb_03_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(47) neck_01
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(48) head
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(49) thigh_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(50) calf_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(52) foot_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(53) ball_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(55) thigh_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(56) calf_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(58) foot_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(59) ball_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(61) ik_foot_root
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(62) ik_foot_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(63) ik_foot_r
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(64) ik_hand_root
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(65) ik_hand_gun
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(66) ik_hand_l
+[2023.01.20-18.45.30:514][492]LogFbx: SortedLinks :(67) ik_hand_r
+[2023.01.20-18.45.30:516][492]LogFbx: Parsing AnimStack Unreal Take
+[2023.01.20-18.45.30:518][492]LogFbx: CurveName : blendOrient1
+[2023.01.20-18.45.30:518][492]LogFbx: CurveName(blendOrient1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.30:518][492]LogFbx: CurveName : blendParent1
+[2023.01.20-18.45.30:518][492]LogFbx: CurveName(blendParent1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.30:518][492]LogFbx: CurveName : Pose_0
+[2023.01.20-18.45.30:518][492]LogFbx: CurveName(Pose_0) is skipped because it only contains invalid values.
+[2023.01.20-18.45.30:590][492]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/_MainGame/Character/Animations/AimFire.AimFire
+[2023.01.20-18.45.30:590][492]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\AimPose.FBX)
+[2023.01.20-18.45.30:597][492]LogFbx: Loading FBX Scene from C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\AimPose.FBX
+[2023.01.20-18.45.30:619][492]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.20-18.45.30:619][492]LogFbx: SortedLinks :(0) root
+[2023.01.20-18.45.30:619][492]LogFbx: SortedLinks :(1) pelvis
+[2023.01.20-18.45.30:619][492]LogFbx: SortedLinks :(2) spine_01
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(3) spine_02
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(4) spine_03
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(5) clavicle_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(6) upperarm_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(7) lowerarm_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(8) hand_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(9) index_01_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(10) index_02_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(11) index_03_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(12) middle_01_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(13) middle_02_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(14) middle_03_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(15) pinky_01_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(16) pinky_02_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(17) pinky_03_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(18) ring_01_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(19) ring_02_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(20) ring_03_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(21) thumb_01_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(22) thumb_02_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(23) thumb_03_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(26) clavicle_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(27) upperarm_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(28) lowerarm_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(29) hand_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(30) index_01_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(31) index_02_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(32) index_03_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(33) middle_01_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(34) middle_02_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(35) middle_03_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(36) pinky_01_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(37) pinky_02_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(38) pinky_03_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(39) ring_01_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(40) ring_02_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(41) ring_03_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(42) thumb_01_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(43) thumb_02_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(44) thumb_03_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(47) neck_01
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(48) head
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(49) thigh_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(50) calf_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(52) foot_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(53) ball_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(55) thigh_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(56) calf_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(58) foot_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(59) ball_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(61) ik_foot_root
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(62) ik_foot_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(63) ik_foot_r
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(64) ik_hand_root
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(65) ik_hand_gun
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(66) ik_hand_l
+[2023.01.20-18.45.30:620][492]LogFbx: SortedLinks :(67) ik_hand_r
+[2023.01.20-18.45.30:621][492]LogFbx: Parsing AnimStack Unreal Take
+[2023.01.20-18.45.30:621][492]LogFbx: CurveName : blendOrient1
+[2023.01.20-18.45.30:621][492]LogFbx: CurveName(blendOrient1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.30:621][492]LogFbx: CurveName : blendParent1
+[2023.01.20-18.45.30:621][492]LogFbx: CurveName(blendParent1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.30:621][492]LogFbx: CurveName : Pose_0
+[2023.01.20-18.45.30:621][492]LogFbx: CurveName(Pose_0) is skipped because it only contains invalid values.
+[2023.01.20-18.45.30:640][492]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/_MainGame/Character/Animations/AimPose.AimPose
+[2023.01.20-18.45.30:640][492]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\AimtoIdle.FBX)
+[2023.01.20-18.45.30:647][492]LogFbx: Loading FBX Scene from C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\AimtoIdle.FBX
+[2023.01.20-18.45.30:670][492]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(0) root
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(1) pelvis
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(2) spine_01
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(3) spine_02
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(4) spine_03
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(5) clavicle_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(6) upperarm_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(7) lowerarm_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(8) hand_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(9) index_01_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(10) index_02_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(11) index_03_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(12) middle_01_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(13) middle_02_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(14) middle_03_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(15) pinky_01_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(16) pinky_02_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(17) pinky_03_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(18) ring_01_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(19) ring_02_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(20) ring_03_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(21) thumb_01_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(22) thumb_02_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(23) thumb_03_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(26) clavicle_r
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(27) upperarm_r
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(28) lowerarm_r
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(29) hand_r
+[2023.01.20-18.45.30:670][492]LogFbx: SortedLinks :(30) index_01_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(31) index_02_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(32) index_03_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(33) middle_01_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(34) middle_02_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(35) middle_03_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(36) pinky_01_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(37) pinky_02_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(38) pinky_03_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(39) ring_01_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(40) ring_02_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(41) ring_03_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(42) thumb_01_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(43) thumb_02_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(44) thumb_03_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(47) neck_01
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(48) head
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(49) thigh_l
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(50) calf_l
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(52) foot_l
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(53) ball_l
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(55) thigh_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(56) calf_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(58) foot_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(59) ball_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(61) ik_foot_root
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(62) ik_foot_l
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(63) ik_foot_r
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(64) ik_hand_root
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(65) ik_hand_gun
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(66) ik_hand_l
+[2023.01.20-18.45.30:671][492]LogFbx: SortedLinks :(67) ik_hand_r
+[2023.01.20-18.45.30:672][492]LogFbx: Parsing AnimStack Unreal Take
+[2023.01.20-18.45.30:672][492]LogFbx: CurveName : blendOrient1
+[2023.01.20-18.45.30:672][492]LogFbx: CurveName(blendOrient1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.30:672][492]LogFbx: CurveName : blendParent1
+[2023.01.20-18.45.30:672][492]LogFbx: CurveName(blendParent1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.30:672][492]LogFbx: CurveName : Pose_0
+[2023.01.20-18.45.30:672][492]LogFbx: CurveName(Pose_0) is skipped because it only contains invalid values.
+[2023.01.20-18.45.30:721][492]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\Idle.FBX)
+[2023.01.20-18.45.30:729][492]LogFbx: Loading FBX Scene from C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\Idle.FBX
+[2023.01.20-18.45.30:760][492]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(0) root
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(1) pelvis
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(2) spine_01
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(3) spine_02
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(4) spine_03
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(5) clavicle_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(6) upperarm_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(7) lowerarm_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(8) hand_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(9) index_01_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(10) index_02_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(11) index_03_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(12) middle_01_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(13) middle_02_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(14) middle_03_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(15) pinky_01_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(16) pinky_02_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(17) pinky_03_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(18) ring_01_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(19) ring_02_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(20) ring_03_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(21) thumb_01_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(22) thumb_02_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(23) thumb_03_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(26) clavicle_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(27) upperarm_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(28) lowerarm_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(29) hand_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(30) index_01_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(31) index_02_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(32) index_03_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(33) middle_01_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(34) middle_02_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(35) middle_03_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(36) pinky_01_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(37) pinky_02_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(38) pinky_03_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(39) ring_01_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(40) ring_02_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(41) ring_03_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(42) thumb_01_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(43) thumb_02_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(44) thumb_03_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(47) neck_01
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(48) head
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(49) thigh_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(50) calf_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(52) foot_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(53) ball_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(55) thigh_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(56) calf_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(58) foot_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(59) ball_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(61) ik_foot_root
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(62) ik_foot_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(63) ik_foot_r
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(64) ik_hand_root
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(65) ik_hand_gun
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(66) ik_hand_l
+[2023.01.20-18.45.30:761][492]LogFbx: SortedLinks :(67) ik_hand_r
+[2023.01.20-18.45.30:762][492]LogFbx: Parsing AnimStack Unreal Take
+[2023.01.20-18.45.30:762][492]LogFbx: CurveName : blendOrient1
+[2023.01.20-18.45.30:762][492]LogFbx: CurveName(blendOrient1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.30:762][492]LogFbx: CurveName : blendParent1
+[2023.01.20-18.45.30:762][492]LogFbx: CurveName(blendParent1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.30:762][492]LogFbx: CurveName : Pose_0
+[2023.01.20-18.45.30:762][492]LogFbx: CurveName(Pose_0) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:119][492]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\IdleFIre.FBX)
+[2023.01.20-18.45.31:126][492]LogFbx: Loading FBX Scene from C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\IdleFIre.FBX
+[2023.01.20-18.45.31:147][492]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(0) root
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(1) pelvis
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(2) spine_01
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(3) spine_02
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(4) spine_03
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(5) clavicle_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(6) upperarm_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(7) lowerarm_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(8) hand_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(9) index_01_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(10) index_02_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(11) index_03_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(12) middle_01_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(13) middle_02_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(14) middle_03_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(15) pinky_01_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(16) pinky_02_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(17) pinky_03_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(18) ring_01_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(19) ring_02_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(20) ring_03_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(21) thumb_01_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(22) thumb_02_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(23) thumb_03_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(26) clavicle_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(27) upperarm_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(28) lowerarm_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(29) hand_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(30) index_01_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(31) index_02_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(32) index_03_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(33) middle_01_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(34) middle_02_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(35) middle_03_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(36) pinky_01_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(37) pinky_02_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(38) pinky_03_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(39) ring_01_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(40) ring_02_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(41) ring_03_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(42) thumb_01_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(43) thumb_02_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(44) thumb_03_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(47) neck_01
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(48) head
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(49) thigh_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(50) calf_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(52) foot_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(53) ball_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(55) thigh_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(56) calf_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(58) foot_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(59) ball_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(61) ik_foot_root
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(62) ik_foot_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(63) ik_foot_r
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(64) ik_hand_root
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(65) ik_hand_gun
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(66) ik_hand_l
+[2023.01.20-18.45.31:147][492]LogFbx: SortedLinks :(67) ik_hand_r
+[2023.01.20-18.45.31:149][492]LogFbx: Parsing AnimStack Unreal Take
+[2023.01.20-18.45.31:149][492]LogFbx: CurveName : blendOrient1
+[2023.01.20-18.45.31:149][492]LogFbx: CurveName(blendOrient1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:149][492]LogFbx: CurveName : blendParent1
+[2023.01.20-18.45.31:149][492]LogFbx: CurveName(blendParent1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:149][492]LogFbx: CurveName : Pose_0
+[2023.01.20-18.45.31:149][492]LogFbx: CurveName(Pose_0) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:214][492]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\IdleToAim.FBX)
+[2023.01.20-18.45.31:220][492]LogFbx: Loading FBX Scene from C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\IdleToAim.FBX
+[2023.01.20-18.45.31:241][492]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(0) root
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(1) pelvis
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(2) spine_01
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(3) spine_02
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(4) spine_03
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(5) clavicle_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(6) upperarm_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(7) lowerarm_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(8) hand_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(9) index_01_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(10) index_02_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(11) index_03_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(12) middle_01_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(13) middle_02_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(14) middle_03_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(15) pinky_01_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(16) pinky_02_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(17) pinky_03_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(18) ring_01_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(19) ring_02_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(20) ring_03_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(21) thumb_01_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(22) thumb_02_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(23) thumb_03_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(26) clavicle_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(27) upperarm_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(28) lowerarm_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(29) hand_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(30) index_01_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(31) index_02_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(32) index_03_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(33) middle_01_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(34) middle_02_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(35) middle_03_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(36) pinky_01_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(37) pinky_02_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(38) pinky_03_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(39) ring_01_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(40) ring_02_r
+[2023.01.20-18.45.31:242][492]LogFbx: SortedLinks :(41) ring_03_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(42) thumb_01_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(43) thumb_02_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(44) thumb_03_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(47) neck_01
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(48) head
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(49) thigh_l
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(50) calf_l
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(52) foot_l
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(53) ball_l
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(55) thigh_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(56) calf_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(58) foot_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(59) ball_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(61) ik_foot_root
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(62) ik_foot_l
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(63) ik_foot_r
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(64) ik_hand_root
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(65) ik_hand_gun
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(66) ik_hand_l
+[2023.01.20-18.45.31:243][492]LogFbx: SortedLinks :(67) ik_hand_r
+[2023.01.20-18.45.31:243][492]LogFbx: Parsing AnimStack Unreal Take
+[2023.01.20-18.45.31:244][492]LogFbx: CurveName : blendOrient1
+[2023.01.20-18.45.31:244][492]LogFbx: CurveName(blendOrient1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:244][492]LogFbx: CurveName : blendParent1
+[2023.01.20-18.45.31:244][492]LogFbx: CurveName(blendParent1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:244][492]LogFbx: CurveName : Pose_0
+[2023.01.20-18.45.31:244][492]LogFbx: CurveName(Pose_0) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:291][492]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\Reload.FBX)
+[2023.01.20-18.45.31:298][492]LogFbx: Loading FBX Scene from C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\Reload.FBX
+[2023.01.20-18.45.31:320][492]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(0) root
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(1) pelvis
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(2) spine_01
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(3) spine_02
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(4) spine_03
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(5) clavicle_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(6) upperarm_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(7) lowerarm_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(8) hand_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(9) index_01_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(10) index_02_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(11) index_03_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(12) middle_01_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(13) middle_02_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(14) middle_03_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(15) pinky_01_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(16) pinky_02_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(17) pinky_03_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(18) ring_01_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(19) ring_02_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(20) ring_03_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(21) thumb_01_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(22) thumb_02_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(23) thumb_03_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(26) clavicle_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(27) upperarm_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(28) lowerarm_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(29) hand_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(30) index_01_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(31) index_02_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(32) index_03_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(33) middle_01_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(34) middle_02_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(35) middle_03_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(36) pinky_01_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(37) pinky_02_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(38) pinky_03_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(39) ring_01_r
+[2023.01.20-18.45.31:321][492]LogFbx: SortedLinks :(40) ring_02_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(41) ring_03_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(42) thumb_01_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(43) thumb_02_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(44) thumb_03_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(47) neck_01
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(48) head
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(49) thigh_l
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(50) calf_l
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(52) foot_l
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(53) ball_l
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(55) thigh_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(56) calf_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(58) foot_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(59) ball_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(61) ik_foot_root
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(62) ik_foot_l
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(63) ik_foot_r
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(64) ik_hand_root
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(65) ik_hand_gun
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(66) ik_hand_l
+[2023.01.20-18.45.31:322][492]LogFbx: SortedLinks :(67) ik_hand_r
+[2023.01.20-18.45.31:323][492]LogFbx: Parsing AnimStack Unreal Take
+[2023.01.20-18.45.31:324][492]LogFbx: CurveName : blendOrient1
+[2023.01.20-18.45.31:324][492]LogFbx: CurveName(blendOrient1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:324][492]LogFbx: CurveName : blendParent1
+[2023.01.20-18.45.31:324][492]LogFbx: CurveName(blendParent1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:324][492]LogFbx: CurveName : Pose_0
+[2023.01.20-18.45.31:324][492]LogFbx: CurveName(Pose_0) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:495][492]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\run.FBX)
+[2023.01.20-18.45.31:501][492]LogFbx: Loading FBX Scene from C:\Users\mikee\Downloads\FPS Zombie\FPS Zombie\Character Anims\run.FBX
+[2023.01.20-18.45.31:522][492]LogFbx: FBX Scene Loaded Succesfully
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(0) root
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(1) pelvis
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(2) spine_01
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(3) spine_02
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(4) spine_03
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(5) clavicle_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(6) upperarm_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(7) lowerarm_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(8) hand_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(9) index_01_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(10) index_02_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(11) index_03_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(12) middle_01_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(13) middle_02_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(14) middle_03_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(15) pinky_01_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(16) pinky_02_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(17) pinky_03_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(18) ring_01_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(19) ring_02_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(20) ring_03_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(21) thumb_01_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(22) thumb_02_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(23) thumb_03_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(24) lowerarm_twist_01_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(25) upperarm_twist_01_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(26) clavicle_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(27) upperarm_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(28) lowerarm_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(29) hand_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(30) index_01_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(31) index_02_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(32) index_03_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(33) middle_01_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(34) middle_02_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(35) middle_03_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(36) pinky_01_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(37) pinky_02_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(38) pinky_03_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(39) ring_01_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(40) ring_02_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(41) ring_03_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(42) thumb_01_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(43) thumb_02_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(44) thumb_03_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(45) lowerarm_twist_01_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(46) upperarm_twist_01_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(47) neck_01
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(48) head
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(49) thigh_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(50) calf_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(51) calf_twist_01_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(52) foot_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(53) ball_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(54) thigh_twist_01_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(55) thigh_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(56) calf_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(57) calf_twist_01_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(58) foot_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(59) ball_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(60) thigh_twist_01_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(61) ik_foot_root
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(62) ik_foot_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(63) ik_foot_r
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(64) ik_hand_root
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(65) ik_hand_gun
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(66) ik_hand_l
+[2023.01.20-18.45.31:523][492]LogFbx: SortedLinks :(67) ik_hand_r
+[2023.01.20-18.45.31:523][492]LogFbx: Parsing AnimStack Unreal Take
+[2023.01.20-18.45.31:526][492]LogFbx: CurveName : blendOrient1
+[2023.01.20-18.45.31:526][492]LogFbx: CurveName(blendOrient1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:526][492]LogFbx: CurveName : blendParent1
+[2023.01.20-18.45.31:526][492]LogFbx: CurveName(blendParent1) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:526][492]LogFbx: CurveName : Pose_0
+[2023.01.20-18.45.31:526][492]LogFbx: CurveName(Pose_0) is skipped because it only contains invalid values.
+[2023.01.20-18.45.31:610][493]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/_MainGame/Character/Animations/Reload.Reload
+[2023.01.20-18.45.31:610][493]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/_MainGame/Character/Animations/run.run
+[2023.01.20-18.45.31:638][495]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/_MainGame/Character/Animations/IdleToAim.IdleToAim
+[2023.01.20-18.45.31:668][496]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/_MainGame/Character/Animations/Idle.Idle
+[2023.01.20-18.45.31:668][496]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/_MainGame/Character/Animations/IdleFIre.IdleFIre
+[2023.01.20-18.45.31:874][498]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/_MainGame/Character/Animations/AimtoIdle.AimtoIdle
+[2023.01.20-18.46.35:202][694]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/_MainGame/Character/M_Man_Body.M_Man_Body
+[2023.01.20-18.46.35:205][694]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 09DC12E8E01B8F231FCF274E67BCC14C4BD4724C), compiling. 
+[2023.01.20-18.46.35:238][694]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-18.46.35:373][694]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: B4F01F34D989791C5A684B852803EB83654AEC45), compiling. 
+[2023.01.20-18.46.35:375][694]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A739E364DD2143954DD734AC94B4A956CB8A692C), compiling. 
+[2023.01.20-18.46.35:386][694]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.20-18.46.35:386][694]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.20-18.46.35:386][694]MaterialEditorStats: Shader Count: 0
+[2023.01.20-18.46.35:395][694]LogSlate: Took 0.003814 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.01.20-18.46.35:397][694]LogViewport: Scene viewport resized to 301x450, mode Windowed.
+[2023.01.20-18.46.35:484][696]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.20-18.46.35:484][696]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.20-18.46.35:484][696]MaterialEditorStats: Shader Count: 4
+[2023.01.20-18.46.39:979][ 37]LogViewport: Scene viewport resized to 300x462, mode Windowed.
+[2023.01.20-18.46.40:043][ 39]LogViewport: Scene viewport resized to 192x280, mode Windowed.
+[2023.01.20-18.46.40:084][ 40]LogViewport: Scene viewport resized to 151x211, mode Windowed.
+[2023.01.20-18.46.40:324][ 67]LogViewport: Scene viewport resized to 504x625, mode Windowed.
+[2023.01.20-18.46.40:620][100]LogSlate: Window 'M_Man_Body' being destroyed
+[2023.01.20-18.47.03:129][431]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 041D809A3B9575D541E80C9F571F8B32B4B1883B), compiling. 
+[2023.01.20-18.47.03:131][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A3D7D56EB7EB2FFE595B399E8CC4ABD6D3FA984C), compiling. 
+[2023.01.20-18.47.03:133][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 7102EC84E3D9AC0A2109F55745B3234D10737CC4), compiling. 
+[2023.01.20-18.47.03:134][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D5781989A4F596FB198BB808DEA004AD4741E979), compiling. 
+[2023.01.20-18.47.03:141][431]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: D7770E5EDEBC9EE844782983F3C42EBCB677B4A2), compiling. 
+[2023.01.20-18.47.03:143][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: A112C5CBB60B5B1F25044D45BB09D38D4BA3A3A9), compiling. 
+[2023.01.20-18.47.03:144][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 436F2FC6941FC64778F9831D8701433BB6F0A483), compiling. 
+[2023.01.20-18.47.03:145][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A6ACF514AEA00886BAA2108E24B68CF34031837C), compiling. 
+[2023.01.20-18.47.03:146][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 4AF3134F2199D9F9B52991525794C275ECB6E9C4), compiling. 
+[2023.01.20-18.47.03:154][431]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 5B89BDC6D5D880DE0EE28FA8C63F7F9A6D58F38F), compiling. 
+[2023.01.20-18.47.03:155][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 4060453221D99AC6521D583A95932961B6E386AF), compiling. 
+[2023.01.20-18.47.03:156][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 44043F56587F5219116C36C3130BD5DF86799290), compiling. 
+[2023.01.20-18.47.03:157][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C0A4F7E06CF24496873C7D3AD16A2E5BEE09A56E), compiling. 
+[2023.01.20-18.47.03:159][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 92F6B1B584701AEBF9794BE9B7DDC44E347CBBF8), compiling. 
+[2023.01.20-18.47.03:160][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: C119F4655988608D7D274EF1071ADF154A6CBE06), compiling. 
+[2023.01.20-18.47.03:166][431]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 6AC7FBF87166C50FE090B7873B98CA37AB50AA13), compiling. 
+[2023.01.20-18.47.03:167][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: F01D290DEF07A6D7C7C065F2343A5754777E4BF6), compiling. 
+[2023.01.20-18.47.03:169][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: BD41AD256B013101684B09E2FBD9B4B269EA7FB5), compiling. 
+[2023.01.20-18.47.03:170][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 52085ED338001B4E372D756A14CE173AB7A0246C), compiling. 
+[2023.01.20-18.47.03:171][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 17698621126EEE75B6D7E25DA1E2760ECA07AEB3), compiling. 
+[2023.01.20-18.47.03:173][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: E55AE32A2770064A0D4F330840A14236CB1FD244), compiling. 
+[2023.01.20-18.47.03:174][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 760A62A424BA95CBEC64357766744F231B82ED34), compiling. 
+[2023.01.20-18.47.03:178][431]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.20-18.47.03:178][431]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.20-18.47.03:178][431]MaterialEditorStats: Shader Count: 0
+[2023.01.20-18.47.03:219][433]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.20-18.47.03:219][433]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.20-18.47.03:219][433]MaterialEditorStats: Shader Count: 4
+[2023.01.20-18.47.07:461][904]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: CA270F20954A7C58EC116A2AF1A2EF1FF6FCA8F5), compiling. 
+[2023.01.20-18.47.07:462][904]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.20-18.47.07:462][904]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.20-18.47.07:462][904]MaterialEditorStats: Shader Count: 0
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: ================================================
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Total job queries 92, among them cache hits 22 (23.91%)
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Tracking 17 distinct input hashes that result in 9 distinct outputs (52.94%)
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: RAM used: 0.02 MB (0.00 GB) of 3276.80 MB (3.20 GB) budget. Usage: 0.00%
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Shaders Compiled: 66
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Jobs assigned 20, completed 17 (85.00%)
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Average time worker was idle: 59.86 s
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.10 s
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Job execution time: average 0.94 s, max 1.26 s
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Job life time (pending + execution): average 0.98 s, max 1.32
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.47 s
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Average processing rate: 3.80 jobs/sec
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Effective parallelization: 2.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 16
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    7 times, average 0.86 sec, max 1.00 sec, min 0.66 sec)
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    7 times, average 0.74 sec, max 0.84 sec, min 0.57 sec)
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.25 sec, max 0.31 sec, min 0.19 sec)
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 48.78% of total time (compiled    7 times, average 0.86 sec, max 1.00 sec, min 0.66 sec)
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 42.06% of total time (compiled    7 times, average 0.74 sec, max 0.84 sec, min 0.57 sec)
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display:                                                 FLumenCardVS - 5.11% of total time (compiled    1 times, average 0.63 sec, max 0.63 sec, min 0.63 sec)
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.05% of total time (compiled    2 times, average 0.25 sec, max 0.31 sec, min 0.19 sec)
+[2023.01.20-18.47.07:841][947]LogShaderCompilers: Display: ================================================
+[2023.01.20-18.47.08:148][984]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.20-18.47.08:148][984]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2023.01.20-18.47.08:148][984]MaterialEditorStats: Shader Count: 2
+[2023.01.20-18.47.35:496][253]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 367EE0557F7ECD7C1B60F92F411F574D93EEE7C0), compiling. 
+[2023.01.20-18.47.35:497][253]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8516117E151B73243D98DFDA89451F626D6BC5FD), compiling. 
+[2023.01.20-18.47.35:502][253]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.20-18.47.35:502][253]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.20-18.47.35:502][253]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.47.35:502][253]MaterialEditorStats: Shader Count: 0
+[2023.01.20-18.47.35:859][279]MaterialEditorStats: Texture samplers: 1/16
+[2023.01.20-18.47.35:859][279]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.20-18.47.35:859][279]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.47.35:859][279]MaterialEditorStats: Shader Count: 1
+[2023.01.20-18.47.36:254][326]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.20-18.47.36:254][326]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2023.01.20-18.47.36:254][326]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.47.36:254][326]MaterialEditorStats: Shader Count: 2
+[2023.01.20-18.47.51:692][990]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 472EB58437CCCD6DC2057C1FB2313520CD79EA0C), compiling. 
+[2023.01.20-18.47.51:694][990]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 0BE9E0C0715858268F324C315BB9DD24340A56E7), compiling. 
+[2023.01.20-18.47.51:697][990]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.20-18.47.51:697][990]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.20-18.47.51:697][990]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.47.51:697][990]MaterialEditorStats: Shader Count: 0
+[2023.01.20-18.47.52:032][ 20]MaterialEditorStats: Texture samplers: 2/16
+[2023.01.20-18.47.52:032][ 20]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.20-18.47.52:032][ 20]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.47.52:032][ 20]MaterialEditorStats: Shader Count: 1
+[2023.01.20-18.47.52:432][ 68]MaterialEditorStats: Texture samplers: 4/16
+[2023.01.20-18.47.52:433][ 68]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2023.01.20-18.47.52:433][ 68]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.47.52:433][ 68]MaterialEditorStats: Shader Count: 3
+[2023.01.20-18.48.01:195][474]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 625F28676C9669E37B4A8847D5A617BAC5C61AD3), compiling. 
+[2023.01.20-18.48.01:197][474]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 4AEC0B9009E541208908BF7322DD6A43010E1069), compiling. 
+[2023.01.20-18.48.01:200][474]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.20-18.48.01:200][474]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.20-18.48.01:200][474]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.48.01:200][474]MaterialEditorStats: Shader Count: 0
+[2023.01.20-18.48.01:471][492]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.20-18.48.01:471][492]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.20-18.48.01:471][492]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.48.01:471][492]MaterialEditorStats: Shader Count: 1
+[2023.01.20-18.48.01:873][538]MaterialEditorStats: Texture samplers: 5/16
+[2023.01.20-18.48.01:873][538]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.20-18.48.01:873][538]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.48.01:873][538]MaterialEditorStats: Shader Count: 4
+[2023.01.20-18.48.06:863][125]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 4E2B5B14C021262A83E13E776DDD3157D6C38698), compiling. 
+[2023.01.20-18.48.06:865][125]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: E5EFC55B007B184C4961F0C56486A1DAEED3E65E), compiling. 
+[2023.01.20-18.48.06:869][125]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.20-18.48.06:869][125]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.20-18.48.06:869][125]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.48.06:869][125]MaterialEditorStats: Shader Count: 0
+[2023.01.20-18.48.07:156][157]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.20-18.48.07:156][157]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.20-18.48.07:156][157]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.48.07:156][157]MaterialEditorStats: Shader Count: 1
+[2023.01.20-18.48.07:559][204]MaterialEditorStats: Texture samplers: 5/16
+[2023.01.20-18.48.07:559][204]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2023.01.20-18.48.07:559][204]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.48.07:559][204]MaterialEditorStats: Shader Count: 4
+[2023.01.20-18.48.24:280][386]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: F54371B05095C2D590586CBDD8BDEAFE93D2F770), compiling. 
+[2023.01.20-18.48.24:282][386]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 480E34E67CCEB4BDE983F1A6868C4F609ED4D179), compiling. 
+[2023.01.20-18.48.24:286][386]MaterialEditorStats: Texture samplers: 0/16
+[2023.01.20-18.48.24:286][386]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.01.20-18.48.24:286][386]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.48.24:286][386]MaterialEditorStats: Shader Count: 0
+[2023.01.20-18.48.24:663][425]MaterialEditorStats: Texture samplers: 3/16
+[2023.01.20-18.48.24:663][425]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.01.20-18.48.24:663][425]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.48.24:663][425]MaterialEditorStats: Shader Count: 1
+[2023.01.20-18.48.24:965][459]MaterialEditorStats: Texture samplers: 5/16
+[2023.01.20-18.48.24:965][459]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.01.20-18.48.24:965][459]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.48.24:965][459]MaterialEditorStats: Shader Count: 4
+[2023.01.20-18.48.27:611][773]LogMaterialEditor: Saving and Compiling material M_Man_Body
+[2023.01.20-18.48.27:957][773]LogMaterial: Display: Missing cached shadermap for Preview:M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: 1CBC65E8F1B0F2B61D1021F2059C791C0C611792), compiling. 
+[2023.01.20-18.48.27:965][773]LogMaterial: Display: Missing cached shadermap for M_Man_Body in PCD3D_SM5, Default, SM5 (DDC key hash: AD0823D089049779FCA6E7413EF9F3C5228972F7), compiling. 
+[2023.01.20-18.48.27:995][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.01.20-18.48.28:717][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2023.01.20-18.48.32:408][773]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.01.20-18.48.32:408][773]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' report submitted, and took 0.049660s
+[2023.01.20-18.48.32:409][773]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.050000s (0.054457s overbudget)
+[2023.01.20-18.48.32:477][773]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/M_Man_Body
+[2023.01.20-18.48.32:477][773]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/M_Man_Body5A8F4EC24014BC432908E1B8265B2518.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/M_Man_Body.uasset'
+[2023.01.20-18.48.32:491][773]AssetCheck: New page: Asset Save: M_Man_Body
+[2023.01.20-18.48.32:491][773]LogContentValidation: Display: Validating Material /Game/_MainGame/Character/M_Man_Body.M_Man_Body
+[2023.01.20-18.48.32:493][773]MaterialEditorStats: Base pass shader: 134 instructions
+[2023.01.20-18.48.32:493][773]MaterialEditorStats: Base pass vertex shader: 112 instructions
+[2023.01.20-18.48.32:493][773]MaterialEditorStats: Base pass vertex shader: 173 instructions
+[2023.01.20-18.48.32:493][773]MaterialEditorStats: Texture samplers: 7/16
+[2023.01.20-18.48.32:493][773]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2023.01.20-18.48.32:493][773]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.01.20-18.48.32:493][773]MaterialEditorStats: Shader Count: 32
+[2023.01.20-18.48.35:881][919]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/_MainGame/Character/Arms.Arms
+[2023.01.20-18.48.35:902][919]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-18.48.35:911][919]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.01.20-18.48.36:137][919]LogViewport: Scene viewport resized to 1525x1218, mode Windowed.
+[2023.01.20-18.48.46:794][125]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2023.01.20-18.48.46:794][125]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.01.20-18.49.13:057][235]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.01.20-18.49.13:068][235]LogContentBrowser: Creating deferred item: NewFolder
+[2023.01.20-18.49.13:073][236]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.01.20-18.49.20:505][127]LogContentBrowser: Attempting asset rename: NewFolder -> BluePrints
+[2023.01.20-18.49.20:505][127]LogContentBrowser: End creating deferred item NewFolder
+[2023.01.20-18.49.40:093][448]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.01.20-18.49.40:094][448]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.01.20-18.49.48:856][286]LogViewport: Scene viewport resized to 1145x974, mode Windowed.
+[2023.01.20-18.50.46:835][224]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.20-18.50.50:469][635]LogAnimation: Warning: AnimBP FirstPerson_AnimBP_C is incompatible with skeleton Arms_Skeleton, removing AnimBP from actor.
+[2023.01.20-18.50.50:471][635]LogAnimation: Warning: AnimBP FirstPerson_AnimBP_C is incompatible with skeleton Arms_Skeleton, removing AnimBP from actor.
+[2023.01.20-18.50.50:472][635]LogAnimation: Warning: AnimBP FirstPerson_AnimBP_C is incompatible with skeleton Arms_Skeleton, removing AnimBP from actor.
+[2023.01.20-18.50.56:915][385]LogAnimation: Warning: AnimBP FirstPerson_AnimBP_C is incompatible with skeleton SK_FPGun_Skeleton, removing AnimBP from actor.
+[2023.01.20-18.50.56:916][385]LogAnimation: Warning: AnimBP FirstPerson_AnimBP_C is incompatible with skeleton SK_FPGun_Skeleton, removing AnimBP from actor.
+[2023.01.20-18.51.10:820][749]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2023.01.20-18.51.10:865][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.01.20-18.51.10:924][750]LogUObjectGlobals: Warning: Failed to find object 'Class None.DestructibleMesh'
+[2023.01.20-18.51.11:190][774]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.01.20-18.51.11:191][774]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/BP_FirstPersonCharacter822C34D1404C5B3730012293AA8B35C0.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.01.20-18.51.11:203][774]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2023.01.20-18.51.11:203][774]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.01.20-18.51.16:568][375]LogMetaData: Removing '/Game/_MainGame/BluePrints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C' ref from Metadata '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2023.01.20-18.51.16:568][375]LogMetaData: Removing '/Game/_MainGame/BluePrints/BP_FirstPersonCharacter.BP_FirstPersonCharacter:OnUseItem.K2Node_FunctionEntry_0' ref from Metadata '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2023.01.20-18.51.16:568][375]LogMetaData: Removing '/Game/_MainGame/BluePrints/BP_FirstPersonCharacter.SKEL_BP_FirstPersonCharacter_C' ref from Metadata '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2023.01.20-18.51.16:568][375]LogMetaData: Removing '/Game/_MainGame/BluePrints/BP_FirstPersonCharacter.SKEL_BP_FirstPersonCharacter_C:InpAxisEvt_Turn Right / Left Gamepad_K2Node_InputAxisEvent_0' ref from Metadata '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2023.01.20-18.51.16:568][375]LogMetaData: Removing '/Game/_MainGame/BluePrints/BP_FirstPersonCharacter.SKEL_BP_FirstPersonCharacter_C:InpAxisEvt_Look Up / Down Gamepad_K2Node_InputAxisEvent_1' ref from Metadata '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2023.01.20-18.51.16:568][375]LogMetaData: Removing '/Game/_MainGame/BluePrints/BP_FirstPersonCharacter.SKEL_BP_FirstPersonCharacter_C:InpAxisEvt_Turn Right / Left Mouse_K2Node_InputAxisEvent_2' ref from Metadata '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2023.01.20-18.51.16:568][375]LogMetaData: Removing '/Game/_MainGame/BluePrints/BP_FirstPersonCharacter.SKEL_BP_FirstPersonCharacter_C:InpAxisEvt_Look Up / Down Mouse_K2Node_InputAxisEvent_3' ref from Metadata '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2023.01.20-18.51.16:568][375]LogMetaData: Removing '/Game/_MainGame/BluePrints/BP_FirstPersonCharacter.SKEL_BP_FirstPersonCharacter_C:InpAxisEvt_Move Forward / Backward_K2Node_InputAxisEvent_4' ref from Metadata '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2023.01.20-18.51.16:568][375]LogMetaData: Removing '/Game/_MainGame/BluePrints/BP_FirstPersonCharacter.SKEL_BP_FirstPersonCharacter_C:InpAxisEvt_Move Right / Left_K2Node_InputAxisEvent_5' ref from Metadata '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2023.01.20-18.51.16:568][375]LogMetaData: Removing '/Game/_MainGame/BluePrints/BP_FirstPersonCharacter.SKEL_BP_FirstPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.PackageMetaData'
+[2023.01.20-18.51.16:627][375]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Rifle
+[2023.01.20-18.51.16:628][375]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/BP_RifleCCA5C439455A188CF0AFCA8F5519ABCE.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/FirstPerson/Blueprints/BP_Rifle.uasset'
+[2023.01.20-18.51.16:630][375]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode
+[2023.01.20-18.51.16:631][375]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/BP_FirstPersonGameMode8E08F0014C7A5490BB97B582C69E44E7.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/FirstPerson/Blueprints/BP_FirstPersonGameMode.uasset'
+[2023.01.20-18.51.16:640][375]LogSavePackage: Moving output files for package: /Game/_MainGame/BluePrints/BP_FirstPersonCharacter
+[2023.01.20-18.51.16:640][375]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/BP_FirstPersonCharacter79A5C6F1446340734DE621B184692700.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/BluePrints/BP_FirstPersonCharacter.uasset'
+[2023.01.20-18.51.16:674][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2023.01.20-18.51.16:692][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.01.20-18.51.16:708][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.01.20-18.51.16:736][375]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.20-18.51.16:736][375]LogContentValidation: Display: Validating Blueprint /Game/_MainGame/BluePrints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.01.20-18.51.16:736][375]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonGameMode.BP_FirstPersonGameMode
+[2023.01.20-18.51.16:736][375]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle
+[2023.01.20-18.51.31:548][968]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Rifle
+[2023.01.20-18.51.31:549][968]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/BP_Rifle657105D14DB98C32E55A1BAB2E9951C9.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/FirstPerson/Blueprints/BP_Rifle.uasset'
+[2023.01.20-18.51.31:558][968]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset
+[2023.01.20-18.51.31:559][968]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/SK_FPGun_PhysicsAsset0981A40E457D59CC9B8AD2A8F72E0B93.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.uasset'
+[2023.01.20-18.51.31:567][968]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/SK_FPGun_Skeleton
+[2023.01.20-18.51.31:568][968]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/SK_FPGun_SkeletonAECEBB89457DDE907B9D0E8E6F702FFD.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/FPWeapon/Mesh/SK_FPGun_Skeleton.uasset'
+[2023.01.20-18.51.31:576][968]LogSavePackage: Moving output files for package: /Game/FPWeapon/Mesh/SK_FPGun_Physics
+[2023.01.20-18.51.31:576][968]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/SK_FPGun_Physics33DFA35E467C27187C5700AE31F35942.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/FPWeapon/Mesh/SK_FPGun_Physics.uasset'
+[2023.01.20-18.51.31:603][968]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.01.20-18.51.31:611][968]LogUObjectGlobals: Warning: Could not delete
+[2023.01.20-18.51.31:629][968]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.01.20-18.51.31:634][968]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.20-18.51.31:634][968]LogContentValidation: Display: Validating PhysicsAsset /Game/FPWeapon/Mesh/SK_FPGun_Physics.SK_FPGun_Physics
+[2023.01.20-18.51.31:634][968]LogContentValidation: Display: Validating Skeleton /Game/FPWeapon/Mesh/SK_FPGun_Skeleton.SK_FPGun_Skeleton
+[2023.01.20-18.51.31:634][968]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_Rifle.BP_Rifle
+[2023.01.20-18.51.31:634][968]LogContentValidation: Display: Validating PhysicsAsset /Game/FPWeapon/Mesh/SK_FPGun_PhysicsAsset.SK_FPGun_PhysicsAsset
+[2023.01.20-18.52.17:353][602]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.01.20-18.52.17:387][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_MainGame/Character/Arms" FILE="../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Arms.uasset" SILENT=true
+[2023.01.20-18.52.17:407][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/Arms
+[2023.01.20-18.52.17:407][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/Arms43760C7C443F54EC3A0B3AAC0FC2E656.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Arms.uasset'
+[2023.01.20-18.52.17:409][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/Arms_Skeleton
+[2023.01.20-18.52.17:409][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/Arms_SkeletonFDA0252D43F1999516050EBD2C44B8E1.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Arms_Skeleton.uasset'
+[2023.01.20-18.52.17:411][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/Arms_PhysicsAsset
+[2023.01.20-18.52.17:411][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/Arms_PhysicsAsset820EECE5477A94ED7559B88D8890805F.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Arms_PhysicsAsset.uasset'
+[2023.01.20-18.52.18:620][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/T_Man_Body_Normals
+[2023.01.20-18.52.18:620][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/T_Man_Body_NormalsF8BB167E4546DD34B541EB988D1E2A20.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/T_Man_Body_Normals.uasset'
+[2023.01.20-18.52.19:644][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/T_Man_Body_Albedo
+[2023.01.20-18.52.19:645][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/T_Man_Body_AlbedoB252EF5B467CD5407A3C1DA180754405.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/T_Man_Body_Albedo.uasset'
+[2023.01.20-18.52.20:190][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/T_Man_Body_Ao
+[2023.01.20-18.52.20:190][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/T_Man_Body_AoDC9DBA1343449DAD39DAD2923A5D1A26.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/T_Man_Body_Ao.uasset'
+[2023.01.20-18.52.20:777][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/T_Man_Body_Metallic
+[2023.01.20-18.52.20:777][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/T_Man_Body_Metallic5A55577D463E4FB62B3A24BB2EF1BDFC.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/T_Man_Body_Metallic.uasset'
+[2023.01.20-18.52.20:827][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/Animations/AimFire
+[2023.01.20-18.52.20:827][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/AimFireB4D889504015F4D5E3B211AFB5D882A5.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Animations/AimFire.uasset'
+[2023.01.20-18.52.20:845][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/Animations/AimPose
+[2023.01.20-18.52.20:845][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/AimPose783F2C4C4C44DE7007BA098226C0BCCA.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Animations/AimPose.uasset'
+[2023.01.20-18.52.20:862][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/Animations/AimtoIdle
+[2023.01.20-18.52.20:862][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/AimtoIdle64CF499E471BF4C1DABE0BA6256AAA86.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Animations/AimtoIdle.uasset'
+[2023.01.20-18.52.20:889][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/Animations/Idle
+[2023.01.20-18.52.20:889][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/Idle5A5415A6447F0EA743E5C5AF6E876131.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Animations/Idle.uasset'
+[2023.01.20-18.52.20:908][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/Animations/IdleFIre
+[2023.01.20-18.52.20:908][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/IdleFIre41131C9948103E7707155EBB21D9B700.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Animations/IdleFIre.uasset'
+[2023.01.20-18.52.20:925][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/Animations/IdleToAim
+[2023.01.20-18.52.20:925][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/IdleToAimFA898E324D8754AA326F6AA4C531540B.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Animations/IdleToAim.uasset'
+[2023.01.20-18.52.20:945][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/Animations/Reload
+[2023.01.20-18.52.20:945][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/Reload74EEEAC4454EDC3EE4553F971F1109EE.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Animations/Reload.uasset'
+[2023.01.20-18.52.20:963][602]LogSavePackage: Moving output files for package: /Game/_MainGame/Character/Animations/run
+[2023.01.20-18.52.20:963][602]LogSavePackage: Moving '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Saved/run236F04384A417C7D25B9F792FE7E4555.tmp' to '../../../../../../Users/mikee/Documents/GitHub/FPSGatchaGame/FpsGatchaGame/Content/_MainGame/Character/Animations/run.uasset'
+[2023.01.20-18.52.20:975][602]AssetCheck: New page: Asset Save: multiple assets
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating AnimSequence /Game/_MainGame/Character/Animations/IdleFIre.IdleFIre
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating AnimSequence /Game/_MainGame/Character/Animations/Idle.Idle
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating AnimSequence /Game/_MainGame/Character/Animations/AimtoIdle.AimtoIdle
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating AnimSequence /Game/_MainGame/Character/Animations/AimPose.AimPose
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating AnimSequence /Game/_MainGame/Character/Animations/AimFire.AimFire
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating SkeletalMesh /Game/_MainGame/Character/Arms.Arms
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating Skeleton /Game/_MainGame/Character/Arms_Skeleton.Arms_Skeleton
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating PhysicsAsset /Game/_MainGame/Character/Arms_PhysicsAsset.Arms_PhysicsAsset
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating Texture2D /Game/_MainGame/Character/T_Man_Body_Metallic.T_Man_Body_Metallic
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating Texture2D /Game/_MainGame/Character/T_Man_Body_Ao.T_Man_Body_Ao
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating Texture2D /Game/_MainGame/Character/T_Man_Body_Albedo.T_Man_Body_Albedo
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating Texture2D /Game/_MainGame/Character/T_Man_Body_Normals.T_Man_Body_Normals
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating AnimSequence /Game/_MainGame/Character/Animations/IdleToAim.IdleToAim
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating AnimSequence /Game/_MainGame/Character/Animations/Reload.Reload
+[2023.01.20-18.52.20:975][602]LogContentValidation: Display: Validating AnimSequence /Game/_MainGame/Character/Animations/run.run
